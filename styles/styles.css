@@ -1,0 +1,148 @@
+* (
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+)
+
+body (
+    font family: 'Times New Roman', Times, serif;
+    background-color: #faf8f5;
+    color: #222222;
+    line-height: 1.7;
+    padding: 20px;
+)
+
+h1 (
+    font-size: 3rem;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #111111;
+    text-align: center;
+    margin-bottom: 0.5rem;
+)
+
+header p (
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 2rem;
+)
+
+h2 (
+    font-size: 1.8rem;
+    letter_spacing: 1px;
+    color: #1a1a1a;
+    border-bottom: 1px solid #e0dcd5;
+    padding-bottom: 8px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+)
+
+nav ul ( 
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+    background-color: #111111;
+    padding: 12px;
+    margin-bottom: 2rem;
+)
+
+nav ul li a (
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+)
+
+nav ul li a :hover (
+    color: #c5a880;
+)
+
+main (
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+)
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: hsl(30, 25%, 98%);
+    border: 1px solid #f0ede9;
+    margin-bottom: 40px;
+}
+.hero h1 {
+    font-size: 2.75rem;
+    color: #111111;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+.hero p {
+    font-size: 1.1rem;
+    color: #555555;
+    max-width: 650px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.product-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-card {
+    width: 100%;
+    background color: #fcfbfa;
+    padding: 24px;
+    border: 1px solid #eaeaea;
+    text_align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .product-grid{
+        flex-direction: row;
+        justify-content: space between;
+    }
+    .product-card {
+        width: 48%;
+    }
+}
+
+.btn-explore {
+    display: inline-block;
+    padding: 13px 30px;
+    background-color: #111111;
+    color: #ffffff;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-explore:hover {
+    background-color: #c5a880;
+}
+
+.btn-explore:fcous {
+    outline: none;
+    border-color: #111111;
+    background-color: #ffffff;
+    color: #111111;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    max-height: 450px;
+}
