@@ -19,10 +19,11 @@ Google Maps (2026) *Embed map code generator API*. Available at: https://google.
  ## Responsive design previews
  ## desktop layout preview 
  ! desktop.png
+ ### [Part 3 update]
 
  ### JavaScripts Enhancements
  * **Interactive Elements:** Implemented a customr interactive component for scent note composition profiles ('Top', 'Heart', and 'Base', notes).Added a mordern, high-resolution click-toexpand image ligthbox gallery layout with manual backdrop-dismiss event hooks for item viewing.
- * **Dynamic Content and Search:** Programmed a responsive Javascript search utility on the catalog interface. It targetslocal database arrays to instantly render matching perfume entries to the DOM through text character parsing, avoiding screen reloading.
+ * **Dynamic Content and Search:** Programmed a responsive Javascript search utility on the catalog interface. It targets local database arrays to instantly render matching perfume entries to the DOM through text character parsing, avoiding screen reloading.
 
 ### Form and Validation and Logic 
 * **Enquiry page ('enquiry.html'):** Captures customer item queries. It also applies front-end field verificationrules before executing AJAX pipelines to fetch and render local pricing summaries directly into the embedded client sucess container.
@@ -33,13 +34,12 @@ Google Maps (2026) *Embed map code generator API*. Available at: https://google.
  -Linked an external stylesheer across all working project layouts.
  -Intergrated fully responsive layouts using grid structure to replace static multi-column elements.
  
-### [Part 3 update]
+
 * **Skill: CSS Styling for Desktop - Layout Structure**
 * * Correction:* Refactored the core application layout using a robust **CSS Grid** module for product catalogs and **Flexbox** for alignment cards. Applied 'grid-template-columns: repeat(auto-fit, minmax(280px, 1fr))'alongside an explicitly managed 'gap:24px' to the fragrance showcase grid. This completely resovles overlapping text fields, structural alignment breaks and floating empty blocks under perfume descriptions.
 
 * **Skill: Responsive Design - Adjustment**
-* * Correction* Intergrated a responsive viewport media query breakpoint @
-
+* * Correction* Implemented media queries to ensure responsive buttons stack cleanly and display and interactive toggle menu on mobile viewport.
 
  ## Academic references
  -Marcotte, E. (2010) *Responsive web design*. A lsit apart. https://alistapart.com

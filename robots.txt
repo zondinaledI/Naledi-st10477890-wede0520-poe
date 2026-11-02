@@ -1,0 +1,5 @@
+user-agent: *
+alllow: /
+disallow: /admin/
+
+sitemap: https://netlify.app

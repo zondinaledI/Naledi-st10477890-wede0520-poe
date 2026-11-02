@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="witdh=device-width, initial-scale=1.0">
+        <title> Contact Customer Relations| Signature Fragrance Store</title>
+        <meta name="description" content="Reach out to our fragrance concierge team for assistance with orders and custom selections".>
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+    <body>
+
+        <header>
+            <nav class="navbar">
+                <div class="logo">Signature Fragrance Store</div>
+                <button class="menu-toggle" id="mobilemenuTrigger" aria-label="Toogle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>             
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-links" id="navLinksMenu">
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="products.html" class="active">Collections</a></li>
+                    <li><a href="enquiry.html"Enquiry</a></a>li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+             </nav>
+        </header>
+        <main class="main-container">
+            <h1>Contact Us</h1>
+
+            <form id="contactForm" style="display":flex; flex-direction:column; gap:15px; width:500px;>
+                <div>
+                    <label>Email Address:</label><br>
+                    <input> type="email" id="contactEmail" placeholder="name@domain.co.za" sytle="width:100%; padding:10px">
+                    <span id="emailerror" style="color:red; fony-size:0.85rem;"><</span>
+                </div>
+
+                </div>
+                    <label>South African phone number:</label><br>
+                    <input> type="tel" id="contactphone" placeholder="0823456789" style="width:100%: padding:10px";>
+                    <span> id="phoneError" style"color:red; font-size: 0.85rem;"></span>
+                </div>
+
+                </div>
+                    <label>Yuor message:</label><br>
+                    <textarea id="contactmaessage" rows="5" style="width":100%; padding:10px;"></textarea>
+                    <span id="messgaeError" style="color:red; font-size:0.85rem;"></span>
+                </div>
+
+                <button type="submit" style="background:var(--onyx-black); color:var(--gold-primary); padding:12px; border:1px solid var(--gold-primary); cursor:pointer; text-transform:uppercase;">Send message</button>
+                <div id="ajaxStatusMessage" style="margin-top:10px; font-weight:bold;"></div>
+            </form>
+        </main>
+        <script src="js/contact.js"></script>
+</body>
+</html>
